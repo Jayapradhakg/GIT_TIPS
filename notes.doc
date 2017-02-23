@@ -5,6 +5,8 @@ https://www.youtube.com/watch?v=HVsySz-h9r4
  
 https://www.atlassian.com/git/tutorials/learn-about-code-review-in-bitbucket-cloud
 
+https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes 
+
 ======
 A ref is anything pointing to a commit, for example, branches (heads), tags, and remote branches. You should see heads, remotes, and tags in your .git/refs directory, assuming you have all three types of refs in your repository.
 
