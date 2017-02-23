@@ -1,0 +1,14 @@
+
+http://classic.scottr.org/presentations/git-in-5-minutes/
+
+https://www.youtube.com/watch?v=HVsySz-h9r4
+ 
+https://www.atlassian.com/git/tutorials/learn-about-code-review-in-bitbucket-cloud
+
+======
+A ref is anything pointing to a commit, for example, branches (heads), tags, and remote branches. You should see heads, remotes, and tags in your .git/refs directory, assuming you have all three types of refs in your repository.
+
+refs/heads/0.58 specifies a branch named 0.58. If you don't specify what namespace the ref is in, git will look in the default ones. This makes using only 0.58 conceivably ambiguous - you could have both a branch and a tag named 0.58.
+
+`
+
