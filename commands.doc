@@ -77,3 +77,19 @@ git fetch
 git merge
 git pull => fetch and merge 
 git push => sync to main repo.
+
+
+-- remove the file already commited and pushed to repo
+Use git rm:
+
+git rm file1.txt
+git commit -m "remove file1.txt"
+But if you want to remove the file only from the Git repository and not remove it from the filesystem, use:
+
+git rm --cached file1.txt
+And to push changes to remote repo
+
+git push origin branch_name  
+
+-- if you want to remove your changes and not yet pushe dto origin, then use the 
+git checkout <flename>
