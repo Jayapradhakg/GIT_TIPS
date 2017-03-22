@@ -93,3 +93,11 @@ git push origin branch_name
 
 -- if you want to remove your changes and not yet pushe dto origin, then use the 
 git checkout <flename>
+
+-- to see the source file contents of previous commit 
+git show <commit_number>:<filename> or <file path from the root directory>
+
+-- git log oneline with <hash number>
+git log --oneline
+
+
